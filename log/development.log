@@ -10171,3 +10171,30 @@ Processing by GinloversController#index as HTML
 Completed 200 OK in 50ms (Views: 44.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-06-26 14:44:22 +0100
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (181.6ms)
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "Video.mp4" is not present in the asset pipeline.):
+    4: 	
+    5: </head>
+    6:   <body>
+    7:     <%= video_tag "Video.mp4", :class => "grid_video hide", :autoplay => false, :controls => true %>
+    8:     <div class='box transform'></div>
+    9: 	     <div id='cover' class='transform'></div>
+   10:           <section id='home'>
+  
+app/views/ginlovers/index.html.erb:7:in `_app_views_ginlovers_index_html_erb___618370759421790495_70262082232720'
+Started GET "/" for 127.0.0.1 at 2018-06-26 14:45:03 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1817.4ms)
+Completed 200 OK in 1926ms (Views: 1923.2ms | ActiveRecord: 0.0ms)
+
+
