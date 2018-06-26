@@ -10221,3 +10221,31 @@ Processing by GinloversController#index as HTML
 Completed 200 OK in 132ms (Views: 123.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-06-26 16:07:52 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (346.7ms)
+Completed 500 Internal Server Error in 373ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected selector or at-rule, was "}"):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/application.css.scss:227
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb___934592588580515353_70320791932600'
+Started GET "/" for 127.0.0.1 at 2018-06-26 16:09:27 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (106.2ms)
+Completed 200 OK in 214ms (Views: 211.7ms | ActiveRecord: 0.0ms)
+
+
