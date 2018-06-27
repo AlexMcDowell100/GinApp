@@ -10265,3 +10265,231 @@ Processing by GinloversController#index as HTML
 Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:11:04 +0100
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (499.3ms)
+Completed 500 Internal Server Error in 524ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/ginlovers.css.scss:38
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb__1774617273977427118_70308014432940'
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:12:26 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (147.6ms)
+Completed 500 Internal Server Error in 157ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/ginlovers.css.scss:38
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb__1774617273977427118_70308055623380'
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:13:26 +0100
+  [1m[35m (6.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (230.5ms)
+Completed 500 Internal Server Error in 251ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/ginlovers.css.scss:38
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb___1678114680669672364_70296506200360'
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:14:16 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (379.1ms)
+Completed 500 Internal Server Error in 390ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/ginlovers.css.scss:38
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb___1678114680669672364_70296525868340'
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:14:20 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (14.8ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/ginlovers.css.scss:38
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb___1678114680669672364_70296486897880'
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:14:32 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (14.2ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/ginlovers.css.scss:38
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb___1678114680669672364_70296509762540'
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:14:34 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (15.1ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/ginlovers.css.scss:38
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb___1678114680669672364_70296487291340'
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:14:58 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (237.3ms)
+Completed 500 Internal Server Error in 261ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/ginlovers.css.scss:38
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb__1230915032745756434_70288915989680'
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:15:49 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (314.5ms)
+Completed 500 Internal Server Error in 333ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    13:               <div class='spacer'>
+    14:               </div>
+    15:              <div></div>
+    16:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    17:               
+    18:               <div class='spacer'>
+    19:               </div>
+  
+app/assets/stylesheets/ginlovers.css.scss:38
+app/views/ginlovers/index.html.erb:16:in `_app_views_ginlovers_index_html_erb___3453650184774618660_70165493510020'
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:16:31 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (388.9ms)
+Completed 200 OK in 725ms (Views: 722.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:17:00 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:17:02 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:18:34 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 639ms (Views: 635.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:18:55 +0100
+Processing by GinloversController#index as HTML
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:18:55 +0100
+  Rendering ginlovers/index.html.erb within layouts/application
+Processing by GinloversController#index as HTML
+  Rendered ginlovers/index.html.erb within layouts/application (11.6ms)
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 81ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 99ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-27 09:18:55 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
