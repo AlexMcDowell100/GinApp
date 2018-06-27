@@ -1,3 +1,6 @@
+
+config.assets.precompile += %w( .svg .eot .woff .ttf .png .jpg .gif)
+
 require_relative 'boot'
 
 require 'rails/all'
