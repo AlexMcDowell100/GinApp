@@ -10701,3 +10701,118 @@ Processing by GinloversController#index as HTML
 Completed 200 OK in 1328ms (Views: 1319.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-06-27 11:13:15 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (332.0ms)
+Completed 500 Internal Server Error in 349ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Can't resolve image into URL: undefined method `[]' for "image":Sass::Script::Value::String):
+    14:               <div class='spacer'>
+    15:               </div>
+    16:              <div></div>
+    17:                 <%= image_tag 'GinUpLogo.png', :id => "logo" %>
+    18:               
+    19:               <div class='spacer'>
+    20:               </div>
+  
+app/views/ginlovers/index.html.erb:17:in `_app_views_ginlovers_index_html_erb___263116456785660091_70194911371680'
+Started GET "/" for 127.0.0.1 at 2018-06-27 11:13:46 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (38.1ms)
+Completed 200 OK in 188ms (Views: 185.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-27 11:14:18 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "background-image": expected ";", was ": asset-url($as..."):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+    11:   </head>
+  
+app/assets/stylesheets/ginlovers.css.scss:39
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__509231010856583384_70194899934300'
+Started GET "/" for 127.0.0.1 at 2018-06-27 11:14:32 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for "image":Sass::Script::Value::String):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+    11:   </head>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__509231010856583384_70194936937400'
+Started GET "/" for 127.0.0.1 at 2018-06-27 11:14:45 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for "image":Sass::Script::Value::String):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+    11:   </head>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__509231010856583384_70194938559200'
+Started GET "/" for 127.0.0.1 at 2018-06-27 11:15:00 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "background-image": expected ";", was ": asset-url($as..."):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+    11:   </head>
+  
+app/assets/stylesheets/ginlovers.css.scss:39
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__509231010856583384_70194899734400'
+Started GET "/" for 127.0.0.1 at 2018-06-27 11:15:08 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-27 11:17:43 +0100
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 104ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
